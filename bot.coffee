@@ -6,7 +6,7 @@ options =
     reconnect: true
   identity:
     username: 'rscodesbot'
-    password: 'oauth:8nbv4mibhwzutakkmop55njbb7wxsh'
+    password: ''
   channels: [ 'channel names' ]
 client = new (tmi.client)(options)
 client.connect()
